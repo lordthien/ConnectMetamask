@@ -1,0 +1,34 @@
+// Here you can add other styles
+.wrapper__header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.c-sidebar {
+  background: #000;
+  // linear-gradient(
+  //   45deg,
+  //   #9f6ccc 0%,
+  //   #cc6cbc 10%,
+  //   #f98358 40%,
+  //   #f8bc4e
+  // );
+}
+.localbrand {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: 30px;
+  font-weight: 700;
+  background: linear-gradient(45deg, #f04393, #f9c449);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.table__staff {
+  .table tr td {
+    padding-top: 5rem;
+  }
+  .table tr .table__img {
+    padding-top: 0;
+  }
+}
